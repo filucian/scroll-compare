@@ -1,0 +1,29 @@
+{
+  "name": "scroll-compare",
+  "version": "1.0.0",
+  "description": "Allows two Scrollable Divs to scroll next to each other in sync with arbitrary scrollTops(optional).",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",   "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filucian/scroll-compare.git"
+  },
+  "keywords": [],
+  "author": "Nilesh Parkhe <parkhenilesh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filucian/scroll-compare/issues"
+  },
+  "homepage": "https://github.com/filucian/scroll-compare#readme",
+  "devDependencies": {
+    "@types/pluralize": "^0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
